@@ -17,4 +17,7 @@ as.integer(vector)
 
 #### Samples
 
+```r
 data <- sample(-15:15,12)
+data <- sample(-15:15,12,replace=T)
+```
