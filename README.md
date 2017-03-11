@@ -40,3 +40,12 @@ platform <- c("Mac","Windows","Ubuntu")
 users$platform <- platform
 users[2,2]<-5
 ```
+
+#### Installing Packages
+
+```bash
+install.packages("googlesheets")
+library("googlesheets")
+workshop <- gs_title("R Workshop")
+Workshop_df <- gs_read(Workshop)
+```
