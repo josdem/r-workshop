@@ -21,3 +21,18 @@ as.integer(vector)
 data <- sample(-15:15,12)
 data <- sample(-15:15,12,replace=T)
 ```
+
+#### Matrix
+
+```r
+m <- matrix(data, 4, 3)
+```
+
+#### Frames
+
+```r
+users <- data.frame(nickname=c("erich", "martinv", "josdem"),
+                    score=c("5","4","5"),
+                    email=c("erich@emailcom","martinv@email.com","josdem@email.com")
+)
+```
