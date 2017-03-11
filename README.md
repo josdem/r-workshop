@@ -32,10 +32,11 @@ m <- matrix(data, 4, 3)
 
 ```r
 users <- data.frame(nickname=c("erich", "martinv", "josdem"),
-                    score=c("5","4","5"),
+                    score=c(5,4,5),
                     email=c("erich@emailcom","martinv@email.com","josdem@email.com")
 )
 table(users$score)
 platform <- c("Mac","Windows","Ubuntu")
 users$platform <- platform
+users[2,2]<-5
 ```
