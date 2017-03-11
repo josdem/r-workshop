@@ -49,3 +49,10 @@ library("googlesheets")
 workshop <- gs_title("R Workshop")
 Workshop_df <- gs_read(Workshop)
 ```
+
+#### Exercise
+
+1. What is 27 + 1198 / 2 - 63
+2. Set a equal to 7, b equal to 17 and c equal to their product. What is c?
+3. Set e equal yo c(5,5.1,-12,38,100.5) Find the mean, max, and length of e
+4. Change e to character vector, save it as e_char
